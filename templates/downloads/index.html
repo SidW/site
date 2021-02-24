@@ -1,0 +1,6 @@
+<h1>Downloads Page</h1>
+<ul>
+    {% for file_name in files %}
+        <li><a href="{{ resource_dir }}/{{ file_name }}">{{ file_name }}</a></li>
+    {% endfor %}
+</ul>
