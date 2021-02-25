@@ -12,6 +12,3 @@ def index(request):
                                {'files': os.listdir(resource_dir),
                                 'resource_dir': resource_dir}))
 
-
-def test(request):
-    return HttpResponse(render(request, 'test.html'))

@@ -1,1 +1,5 @@
-1. Figure out how to create a download link in html
+Figure out how to create a download link in html
+It seemed that accessing local file by the browser is considered an un-safe operation and is disabled by
+modern browsers.
+
+https://stackoverflow.com/questions/18246053/how-can-i-create-a-link-to-a-local-file-on-a-locally-run-web-page

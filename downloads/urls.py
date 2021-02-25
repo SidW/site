@@ -4,5 +4,5 @@ from . import views
 app_name = 'downloads'
 urlpatterns = [
     path('', views.index, name='index'),
-    path('test/', views.test, name='test')
+    #path('test/', views.test, name='test')
 ]
